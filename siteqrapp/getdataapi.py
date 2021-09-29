@@ -6,6 +6,7 @@ import json
 def getjs(sc, shop):
     username = r'WebService'
     password = 'web2018'
+    # 789
     auth = HttpNtlmAuth(username, password)
     strParam = shop + '/' + sc
     list_url = r"https://ts.offprice.eu/service_retail/hs/wms_api/getpriceQR/" + strParam
